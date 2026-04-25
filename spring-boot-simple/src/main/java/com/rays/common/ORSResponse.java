@@ -1,6 +1,7 @@
 package com.rays.common;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ORSResponse {
@@ -48,7 +49,7 @@ public class ORSResponse {
 		result.put(DATA, value);
 	}
 	
-	public void addResult(String key, String value) {
+	public void addResult(String key, Object value) {
 		result.put(key, value);
 	}
 
